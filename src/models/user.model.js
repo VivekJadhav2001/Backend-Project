@@ -10,7 +10,7 @@ const userSchema = new Schema(
             unique: true,
             lowercase: true,
             trim: true,
-            index: true,      //jab bhu searching field enable karni hai tho usko index true karna is a good option/optimizasion
+            index: true,      //jab bhi searching field enable karni hai tho usko index true karna is a good option/optimizasion
         },
         email: {
             type: String,
